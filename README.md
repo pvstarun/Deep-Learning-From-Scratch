@@ -7,6 +7,16 @@ A modular deep learning framework implemented entirely from scratch using **Pyth
 
 The project demonstrates the complete implementation of the fundamental building blocks of modern deep learning, including forward propagation, backpropagation and optimization algorithms. 
 
+## Project Overview
+
+This project implements the core components of a deep learning framework
+from scratch using NumPy.
+
+Instead of relying on TensorFlow or PyTorch, every operation including
+forward propagation, backpropagation, gradient computation, and parameter
+updates was manually implemented to gain a deeper understanding of how
+neural networks work internally.
+
 ---
 
 ## Features
