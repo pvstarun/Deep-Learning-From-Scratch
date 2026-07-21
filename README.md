@@ -47,15 +47,30 @@ neural networks work internally.
 ## Repository Structure
 
 ```text
-Neural-Network-From-Scratch
+Neural-Network-from-Scratch/
 │
-├── Layers/
-├── Optimization/
-├── Initializers/
-├── NeuralNetwork.py
-├── NeuralNetworkTests.py
 ├── README.md
-└── requirements.txt
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+│
+├── src_to_implement/
+│   ├── NeuralNetwork.py
+│   └── NeuralNetworkTests.py
+│   │
+│   ├── Layers/
+│   │   ├── __init__.py
+│   │   ├── Base.py
+│   │   ├── FullyConnected.py
+│   │   ├── ReLU.py
+│   │   └── SoftMax.py
+│   │   └── Helpers.py
+│   │
+│   ├── Optimization/
+│   │   ├── __init__.py
+│   │   ├── Loss.py
+│   │   └── Optimizers.py
+
 ```
 
 ---
